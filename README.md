@@ -1,5 +1,5 @@
 
-# P2 - 泰坦尼克号生存数据分析
+# P2 - 泰坦尼克号生存数据探索
 
 ## 项目描述：
 ### 数据情况
@@ -1591,7 +1591,7 @@ plt.ylabel('Survival Rate')
 
 
 
-![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figureoutput_49_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figureout/put_49_1.png)
 
 
 
