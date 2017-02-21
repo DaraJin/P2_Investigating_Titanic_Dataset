@@ -320,7 +320,7 @@ titanic_df.groupby('Survived')['Survived'].count().plot(kind='bar')
 
 
 
-![png](P2_Investigating_a_Dataset/figure/output_13_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_13_1.png)
 
 
 可以看出，生存下来的乘客明显少于未生存下来的乘客。
