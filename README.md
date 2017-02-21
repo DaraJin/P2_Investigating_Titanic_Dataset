@@ -1591,7 +1591,7 @@ plt.ylabel('Survival Rate')
 
 
 
-![png](output_49_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figureoutput_49_1.png)
 
 
 
