@@ -341,7 +341,7 @@ Pclass_ct.plot(kind='bar') #对分组结果绘图
 
 
 
-![png](output_16_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_16_1.png)
 
 
 
@@ -377,7 +377,7 @@ sns.factorplot('Sex',data=titanic_df,kind='count')
 
 
 
-![png](output_20_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_20_1.png)
 
 
 船内男性乘客多于女性乘客。
@@ -1351,7 +1351,7 @@ titanic_df['Age'].hist(bins=80)
 
 
 
-![png](output_26_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_26_1.png)
 
 
 船内乘客年龄在大于10的部分接近正态分布。我们可以计算一些年龄的集中趋势。
@@ -1386,7 +1386,7 @@ titanic_df['Fare'].hist(bins=50)
 
 
 
-![png](output_29_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_29_1.png)
 
 
 票价-数量分布图，低价位的船票数量高度集中，如若要进行分组，按等距分组可能不是一个便于观察的好选择。
@@ -1428,7 +1428,7 @@ P2.set(ylim=(0,200))
 
 
 
-![png](output_35_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_35_1.png)
 
 
 总体上，C舱的票价水平高于S舱，高于Q舱；一等类别乘客高于二等、三等。
@@ -1458,7 +1458,7 @@ plt.ylabel('Survival Rate')
 
 
 
-![png](output_38_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_38_1.png)
 
 
 
@@ -1495,7 +1495,7 @@ Fare_group_rate.plot()
 
 
 
-![png](output_41_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_41_1.png)
 
 
 从船票价格分布图来看，我们可以尝试按照价格比例分为5组，再计算每一组内的生还率，可以观察得，价格越高，生还率越高。
@@ -1567,7 +1567,7 @@ cabin_group_rate[["A","B","C","D","E","F","G","n"]].plot(kind='bar')
 
 
 
-![png](output_46_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_46_1.png)
 
 
 有舱位的乘客生还率高于无舱位的乘客，而在各类有舱位的乘客中，B,D,E类舱位生还率最高。
@@ -1662,7 +1662,7 @@ plt.title("Influence of Age on the Survival Prob")
 
 
 
-![png](output_55_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_55_1.png)
 
 
 整体上来看，生还率随着年龄的增加而下降。
@@ -1683,11 +1683,11 @@ sns.factorplot('Parch','Survived',data=titanic_df)
 
 
 
-![png](output_58_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_58_1.png)
 
 
 
-![png](output_58_2.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_58_2.png)
 
 
 SibSp和Parch的影响大致相同，将两者统一为Compa变量，意味同伴人数
@@ -1706,7 +1706,7 @@ sns.factorplot('Compa','Survived',data=titanic_df)
 
 
 
-![png](output_60_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_60_1.png)
 
 
 观察上图可知，当同伴人数为1~3人时，生存率会高于独身情况，而当同伴人数多于3人时，生还率反而很低。
@@ -1749,7 +1749,7 @@ plt.show()
 ```
 
 
-![png](output_65_0.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_65_0.png)
 
 
 
@@ -1766,7 +1766,7 @@ sns.factorplot('Pclass','Survived',hue='Sex',data=titanic_df, order=[3,2,1])
 
 
 
-![png](output_66_1.png)
+![png](https://github.com/DaraJin/P2_Investigating_a_Dataset/blob/master/figure/output_66_1.png)
 
 
 从上图我们可以看出，性别影响大于社会经济地位。即使是第三阶级的女性生还率也还是高于第一阶级男性的生还率。
